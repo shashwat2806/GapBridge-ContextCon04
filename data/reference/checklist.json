@@ -1,0 +1,412 @@
+[
+  {
+    "id": "GV.PO-01",
+    "domain": "ISMS",
+    "function": "Govern",
+    "severity": "high",
+    "requirement": "Policy for managing cybersecurity risks is established based on organizational context, cybersecurity strategy, and priorities and is communicated and enforced",
+    "guide_page": 5,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "policy protects",
+      "communicates it to employees",
+      "policy purpose",
+      "scope of this policy"
+    ]
+  },
+  {
+    "id": "GV.PO-02",
+    "domain": "ISMS",
+    "function": "Govern",
+    "severity": "medium",
+    "requirement": "Policy for managing cybersecurity risks is reviewed, updated, communicated, and enforced to reflect changes in requirements, threats, technology, and organizational mission",
+    "guide_page": 5,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "reviews it every year",
+      "annual policy review",
+      "policy review schedule",
+      "reviewed after a security incident",
+      "reviewed only after a security incident"
+    ]
+  },
+  {
+    "id": "GV.OV-01",
+    "domain": "ISMS",
+    "function": "Govern",
+    "severity": "medium",
+    "requirement": "Cybersecurity risk management strategy outcomes are reviewed to inform and adjust strategy and direction",
+    "guide_page": 5,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "cybersecurity strategy outcomes",
+      "risk strategy review",
+      "adjust cybersecurity strategy",
+      "risk management strategy"
+    ]
+  },
+  {
+    "id": "ID.AM-01",
+    "domain": "ISMS",
+    "function": "Identify",
+    "severity": "high",
+    "requirement": "Inventories of hardware managed by the organization are maintained",
+    "guide_page": 8,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "hardware inventory",
+      "inventory of hardware",
+      "laptop inventory",
+      "spreadsheet of company laptops",
+      "network equipment inventory",
+      "asset inventory"
+    ]
+  },
+  {
+    "id": "PR.AA-05",
+    "domain": "ISMS",
+    "function": "Protect",
+    "severity": "high",
+    "requirement": "Access permissions, entitlements, and authorizations are defined in a policy, managed, enforced, and reviewed, and incorporate the principles of least privilege and separation of duties",
+    "guide_page": 14,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "grants access",
+      "access permissions",
+      "least privilege",
+      "shared administrator accounts",
+      "access review"
+    ]
+  },
+  {
+    "id": "DE.CM-01",
+    "domain": "ISMS",
+    "function": "Detect",
+    "severity": "medium",
+    "requirement": "Networks and network services are monitored to find potentially adverse events",
+    "guide_page": 19,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "network monitoring",
+      "review system logs",
+      "continuous monitoring",
+      "monitored to detect"
+    ]
+  },
+  {
+    "id": "RS.MA-01",
+    "domain": "ISMS",
+    "function": "Respond",
+    "severity": "high",
+    "requirement": "The incident response plan is executed in coordination with relevant third parties once an incident is declared",
+    "guide_page": 21,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "report suspected security incidents",
+      "helpdesk decides whether to involve",
+      "involve outside service providers",
+      "third-party incident"
+    ]
+  },
+  {
+    "id": "RC.RP-01",
+    "domain": "ISMS",
+    "function": "Recover",
+    "severity": "high",
+    "requirement": "The recovery portion of the incident response plan is executed once initiated from the incident response process",
+    "guide_page": 24,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "recovery process",
+      "starts recovery",
+      "restored systems",
+      "recovery plan",
+      "recovery execution"
+    ]
+  },
+  {
+    "id": "GV.OC-03",
+    "domain": "PRIVACY",
+    "function": "Govern",
+    "severity": "high",
+    "requirement": "Legal, regulatory, and contractual requirements regarding cybersecurity—including privacy and civil liberties obligations—are understood and managed",
+    "guide_page": 2,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "applicable privacy laws",
+      "legal requirements",
+      "regulatory requirements",
+      "contractual obligations",
+      "privacy obligations"
+    ]
+  },
+  {
+    "id": "ID.AM-07",
+    "domain": "PRIVACY",
+    "function": "Identify",
+    "severity": "high",
+    "requirement": "Inventories of data and corresponding metadata for designated data types are maintained",
+    "guide_page": 9,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "data inventory",
+      "inventory of data",
+      "data categories",
+      "data records and metadata",
+      "data classification"
+    ]
+  },
+  {
+    "id": "PR.DS-01",
+    "domain": "PRIVACY",
+    "function": "Protect",
+    "severity": "high",
+    "requirement": "The confidentiality, integrity, and availability of data-at-rest are protected",
+    "guide_page": 15,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "data at rest",
+      "encrypted at rest",
+      "stored customer data",
+      "database files are encrypted"
+    ]
+  },
+  {
+    "id": "PR.DS-02",
+    "domain": "PRIVACY",
+    "function": "Protect",
+    "severity": "high",
+    "requirement": "The confidentiality, integrity, and availability of data-in-transit are protected",
+    "guide_page": 15,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "data in transit",
+      "encrypted transport",
+      "TLS",
+      "transport encryption"
+    ]
+  },
+  {
+    "id": "PR.DS-10",
+    "domain": "PRIVACY",
+    "function": "Protect",
+    "severity": "medium",
+    "requirement": "The confidentiality, integrity, and availability of data-in-use are protected",
+    "guide_page": 16,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "data in use",
+      "active data processing",
+      "runtime data",
+      "data during processing"
+    ]
+  },
+  {
+    "id": "RS.CO-02",
+    "domain": "PRIVACY",
+    "function": "Respond",
+    "severity": "high",
+    "requirement": "Internal and external stakeholders are notified of incidents",
+    "guide_page": 22,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "notify customers",
+      "notify regulators",
+      "stakeholders are notified",
+      "incident communication",
+      "external notification"
+    ]
+  },
+  {
+    "id": "ID.RA-01",
+    "domain": "PATCH",
+    "function": "Identify",
+    "severity": "high",
+    "requirement": "Vulnerabilities in assets are identified, validated, and recorded",
+    "guide_page": 9,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "vulnerabilities",
+      "vulnerability scan",
+      "security advisories",
+      "validate vulnerabilities"
+    ]
+  },
+  {
+    "id": "ID.RA-08",
+    "domain": "PATCH",
+    "function": "Identify",
+    "severity": "medium",
+    "requirement": "Processes for receiving, analyzing, and responding to vulnerability disclosures are established",
+    "guide_page": 11,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "vulnerability disclosure",
+      "disclosure process",
+      "report vulnerabilities",
+      "security advisory intake"
+    ]
+  },
+  {
+    "id": "PR.PS-01",
+    "domain": "PATCH",
+    "function": "Protect",
+    "severity": "medium",
+    "requirement": "Configuration management practices are established and applied",
+    "guide_page": 16,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "configuration baseline",
+      "configuration management",
+      "system configuration"
+    ]
+  },
+  {
+    "id": "PR.PS-02",
+    "domain": "PATCH",
+    "function": "Protect",
+    "severity": "high",
+    "requirement": "Software is maintained, replaced, and removed commensurate with risk",
+    "guide_page": 16,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "patches",
+      "software updates",
+      "security updates",
+      "maintained software"
+    ]
+  },
+  {
+    "id": "PR.PS-05",
+    "domain": "PATCH",
+    "function": "Protect",
+    "severity": "medium",
+    "requirement": "Installation and execution of unauthorized software are prevented",
+    "guide_page": 16,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "approved applications",
+      "unauthorized software",
+      "software allowlist",
+      "unapproved software"
+    ]
+  },
+  {
+    "id": "GV.RM-01",
+    "domain": "RISK",
+    "function": "Govern",
+    "severity": "high",
+    "requirement": "Risk management objectives are established and agreed to by organizational stakeholders",
+    "guide_page": 3,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "risk objectives",
+      "risk management objectives",
+      "risk register"
+    ]
+  },
+  {
+    "id": "GV.RM-02",
+    "domain": "RISK",
+    "function": "Govern",
+    "severity": "high",
+    "requirement": "Risk appetite and risk tolerance statements are established, communicated, and maintained",
+    "guide_page": 3,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "risk appetite",
+      "risk tolerance",
+      "risk threshold"
+    ]
+  },
+  {
+    "id": "GV.RM-03",
+    "domain": "RISK",
+    "function": "Govern",
+    "severity": "medium",
+    "requirement": "Cybersecurity risk management activities and outcomes are included in enterprise risk management processes",
+    "guide_page": 3,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "enterprise risk management",
+      "enterprise risk",
+      "risk committee"
+    ]
+  },
+  {
+    "id": "GV.RM-06",
+    "domain": "RISK",
+    "function": "Govern",
+    "severity": "high",
+    "requirement": "A standardized method for calculating, documenting, categorizing, and prioritizing cybersecurity risks is established and communicated",
+    "guide_page": 3,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "risk scoring",
+      "risk calculation",
+      "risk methodology",
+      "likelihood and impact"
+    ]
+  },
+  {
+    "id": "ID.RA-03",
+    "domain": "RISK",
+    "function": "Identify",
+    "severity": "medium",
+    "requirement": "Internal and external threats to the organization are identified and recorded",
+    "guide_page": 10,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "threats",
+      "threat register",
+      "threat intelligence",
+      "internal and external threats"
+    ]
+  },
+  {
+    "id": "ID.RA-04",
+    "domain": "RISK",
+    "function": "Identify",
+    "severity": "high",
+    "requirement": "Potential impacts and likelihoods of threats exploiting vulnerabilities are identified and recorded",
+    "guide_page": 10,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "likelihood",
+      "potential impact",
+      "threat exploiting vulnerabilities",
+      "risk assessment"
+    ]
+  },
+  {
+    "id": "ID.RA-05",
+    "domain": "RISK",
+    "function": "Identify",
+    "severity": "high",
+    "requirement": "Threats, vulnerabilities, likelihoods, and impacts are used to understand inherent risk and inform risk response prioritization",
+    "guide_page": 10,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "inherent risk",
+      "risk prioritization",
+      "threats and vulnerabilities",
+      "risk response prioritization"
+    ]
+  },
+  {
+    "id": "ID.RA-06",
+    "domain": "RISK",
+    "function": "Identify",
+    "severity": "high",
+    "requirement": "Risk responses are chosen, prioritized, planned, tracked, and communicated",
+    "guide_page": 10,
+    "guide_url": "https://www.cisecurity.org/-/media/project/cisecurity/cisecurity/data/media/files/uploads/2024/08/cis-ms-isac-nist-cybersecurity-framework-policy-template-guide-2024.pdf",
+    "partial_signals": [
+      "risk response",
+      "accept, reduce",
+      "risk treatment",
+      "risk owner",
+      "risk response plan"
+    ]
+  }
+]
